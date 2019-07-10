@@ -42,24 +42,34 @@ func main() {
 	// 	fmt.Println("a is more than half of b")
 	// }
 
-	x := 2
-	switch x {
-	case 1:
-		fmt.Println("one")
-	case 2:
-		fmt.Println("two")
-	case 3:
-		fmt.Println("three")
-	default:
-		fmt.Println("many-")
-	}
+	// x := 2
+	// switch x {
+	// case 1:
+	// 	fmt.Println("one")
+	// case 2:
+	// 	fmt.Println("two")
+	// case 3:
+	// 	fmt.Println("three")
+	// default:
+	// 	fmt.Println("many-")
+	// }
 
+	// switch {
+	// case x > 100:
+	// 	fmt.Println("x is very big")
+	// case x > 10:
+	// 	fmt.Println("x is very big")
+	// default:
+	// 	fmt.Println("x is small")
+	// }
+	
+	
 	switch {
 	case x > 100:
-		fmt.Println("x is very big")
+		fmt.Println("fizz")
 	case x > 10:
-		fmt.Println("x is very big")
+		fmt.Println("buzz)
 	default:
-		fmt.Println("x is small")
+		fmt.Println("fizzbuz")
 	}
 }
