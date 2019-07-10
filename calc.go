@@ -51,7 +51,7 @@ func main() {
 	case 3:
 		fmt.Println("three")
 	default:
-		fmt.Println("many")
+		fmt.Println("many-")
 	}
 
 	switch {
